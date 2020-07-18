@@ -1,7 +1,7 @@
-.faq h2 {
+.faq h1 {
     width: 100%;
     height: 60px;
-    font-size: 2em;
+    font-size: 4rem;
     text-align: center;
   }
   
@@ -22,7 +22,7 @@
     text-align: left;
     padding: 24px 36px 24px 24px;
     background-color: rgb(44, 44, 44);
-    font-size: 16px;
+    font-size: 2rem;
     box-shadow: 0 10px 55px rgba(0,0,0,.05);
     position: relative;
   }
@@ -58,12 +58,13 @@
     background-color: rgba(69, 69, 70, 0.8);
     padding: 30px 24px 30px 3em;
     color: #fff;
-    font-size: 16px;
+    font-size: 2rem;
     text-indent: -1em;
   }
   
   @media screen and (min-width: 767px) {
     .faq-inner {
+        width: 960px;
         padding: 60px 90px;
     }
   
