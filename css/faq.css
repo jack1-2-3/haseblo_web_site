@@ -1,14 +1,33 @@
-.faq h1 {
+body {
+  background-image: url(../img/photo_2.png);
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.faq h2 {
     width: 100%;
-    height: 60px;
+    height: 75px;
+    background-color: #000;
     font-size: 4rem;
     text-align: center;
   }
   
   .faq-inner {
-    margin: 0 auto 100px;
+    margin: 0 auto;
     padding: 20px 30px;
-    background-color: #000
   }
   
   .faq-checkbox {
