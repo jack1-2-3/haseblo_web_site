@@ -40,7 +40,7 @@ body::before {
     display: block;
     width: 100%;
     text-align: left;
-    padding: 24px 36px 24px 24px;
+    padding: 24px;
     background-color: rgb(44, 44, 44);
     font-size: 2rem;
     box-shadow: 0 10px 55px rgba(0,0,0,.05);
@@ -70,7 +70,7 @@ body::before {
   }
   
   .faq-checkbox:checked + .faq-label + .faq-accordion {
-    max-height: 224px;
+    max-height: 265px;
     visibility: visible;
   }
   
@@ -87,11 +87,7 @@ body::before {
         width: 960px;
         padding: 60px 90px;
     }
-  
-    .faq-label {
-        padding: 24px;
-    }
-  
+    
     .faq-label::after {
         right: 24px;
         width: 25px;
@@ -101,7 +97,6 @@ body::before {
     .faq-checkbox:checked + .faq-label + .faq-accordion {
         max-height: 120px;
     }
-
   }
   
   
