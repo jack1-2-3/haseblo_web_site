@@ -4,6 +4,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: 150%;
+  z-index: 0;
 }
 
 body::before {
@@ -28,7 +29,7 @@ body::before {
   
   .faq-inner {
     margin: 0 auto;
-    padding: 50px 30px;
+    padding: 20px;
   }
   
   .faq-checkbox {
