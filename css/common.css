@@ -37,7 +37,6 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background-color: #000;
   height: 70px;
   width: 100%;
 }
@@ -443,7 +442,7 @@ html {
 
 body {
   font-size: 1.6em;
-  font-family: "メイリオ", "Meiryo", "ＭＳ ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+  font-family: "メイリオ", "Meiryo", "ＭＳ ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
   line-height: 2;
   font-weight: 500;
   color: #fff;
