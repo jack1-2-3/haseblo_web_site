@@ -31,7 +31,7 @@ $breakpoints: (
   }
 }
 
-.sp__br{
+.sp__br {
   display: none;
 }
 
@@ -42,6 +42,10 @@ a {
 }
 
 body {
+  background-color: black;
+}
+
+.concept__inner {
   position: relative;
   background-image: url(/img/photo_2.png);
   background-size: 150%;
@@ -55,66 +59,65 @@ body {
     background: rgba(0, 0, 0, 0.6);
     z-index: -1;
   }
-}
-
-.container {
-  @include mq("sp") {
-    width: 24rem;
-  }
-}
-// concept
-.concept {
-  padding: 56px 0 142px;
-
-  @include mq("sp") {
-    padding-top: 36px;
-    padding-bottom: 0rem;
-  }
-
-  .concept__container {
-    max-width: 767px;
-  }
-  .concept__subtitle {
-    font-size: 3.2rem;
-    margin-top: 60px;
-    margin-bottom: 70px;
-    position: relative;
+  
+  .container {
     @include mq("sp") {
-      font-size: 2rem;
-      margin-top: 40px;
-      margin-bottom: 40px;
+      width: 24rem;
     }
-    &::before {
-      content:'';
+  }
+  // concept
+  .concept {
+    padding: 56px 0 142px;
+    
+    @include mq("sp") {
+      padding-top: 36px;
+      padding-bottom: 0rem;
+    }
+    
+    .concept__container {
+      max-width: 767px;
+    }
+    .concept__subtitle {
+      font-size: 3.2rem;
+      margin-top: 60px;
+      margin-bottom: 70px;
+      position: relative;
+      @include mq("sp") {
+        font-size: 2rem;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      &::before {
+      content: "";
       display: block;
       position: absolute;
       width: 50px;
       height: 50px;
-      background-color: #CC008A;
+      background-color: #cc008a;
       border-radius: 50px;
       top: 50%;
       left: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
       z-index: -1;
-      @include mq("sp"){
+      @include mq("sp") {
         width: 30px;
         height: 30px;
       }
     }
   }
-
+  
   .concept__txt {
     font-size: 2rem;
     @include mq("sp") {
       font-size: 1rem;
     }
   }
-
+  
   .concept__items {
     display: flex;
     flex-wrap: wrap;
     margin-top: 80px;
-
+    
     @include mq("sp") {
       margin-top: 20px;
     }
@@ -123,8 +126,8 @@ body {
     width: calc(33.3333333% - 3rem * 2 / 3);
     margin: 0 30px 90px 0;
     transition: all 0.3s ease 0s;
-
-    @include mq("sp"){
+    
+    @include mq("sp") {
       margin-bottom: 40px;
     }
     &:nth-child(3n) {
@@ -133,7 +136,7 @@ body {
     &:hover {
       transform: scale(1.1);
     }
-
+    
     img {
       max-width: 100%;
       height: auto;
@@ -142,22 +145,22 @@ body {
         width: 80%;
       }
     }
-
+    
     .media__title {
       font-size: 2rem;
       @include mq("sp") {
         font-size: 1.5rem;
       }
     }
-
+    
     @include mq("tab") {
       width: calc(50% - 2.4rem / 2);
       margin-right: 24px;
-
+      
       &:nth-child(3n) {
         margin-right: 24px;
       }
-
+      
       &:nth-child(2n) {
         margin-right: 0;
       }
@@ -165,7 +168,7 @@ body {
     @include mq("sp") {
       width: 100%;
       margin-right: 0;
-
+      
       &:nth-child(3n) {
         margin-right: 0;
       }
@@ -183,8 +186,8 @@ body {
   }
 }
 .introduction__container {
-    max-width: 767px;
-  }
+  max-width: 767px;
+}
 
 .introduction__item {
   width: calc(50% - 8rem * 1 / 2);
@@ -235,7 +238,7 @@ body {
         font-size: 2.5rem;
       }
     }
-
+    
     .media__txt {
       font-size: 2rem;
       text-align: left;
@@ -243,12 +246,12 @@ body {
         font-size: 1rem;
       }
       .sp__br {
-        @include mq("sp"){
+        @include mq("sp") {
           display: block;
         }
       }
     }
-
+    
     .media__btn {
       margin-top: 50px;
       padding: 13px 48px;
@@ -268,14 +271,32 @@ body {
       }
     }
     
-    .app__link{
-      color:smoke;
+    .app__link {
+      color: smoke;
       text-decoration: underline;
       cursor: pointer;
-      &:hover{
-        color:pink;
+      &:hover {
+        color: pink;
       }
     }
   }
+}
+}
 
+.footer {
+  & > div {
+    height: 100px !important;
+  }
+}
+
+.footer__nav-1 {
+  .line {
+    height: 30px !important;
+  }
+}
+
+.footer__nav-2 {
+  li {
+    height: 50px !important;
+  }
 }
