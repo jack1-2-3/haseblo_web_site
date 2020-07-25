@@ -282,21 +282,3 @@ body {
   }
 }
 }
-
-.footer {
-  & > div {
-    height: 100px !important;
-  }
-}
-
-.footer__nav-1 {
-  .line {
-    height: 30px !important;
-  }
-}
-
-.footer__nav-2 {
-  li {
-    height: 50px !important;
-  }
-}

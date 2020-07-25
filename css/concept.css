@@ -335,16 +335,4 @@ body {
 .concept__inner .introduction__item .media__body .app__link:hover {
   color: pink;
 }
-
-.footer > div {
-  height: 100px !important;
-}
-
-.footer__nav-1 .line {
-  height: 30px !important;
-}
-
-.footer__nav-2 li {
-  height: 50px !important;
-}
 /*# sourceMappingURL=concept.css.map */
