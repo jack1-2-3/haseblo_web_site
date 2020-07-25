@@ -50,7 +50,7 @@ a {
             // ハセブロについて　タイトル
             .aboutHaseblo__title {
                 position: relative;
-                font-size: 3rem;
+                font-size: 4rem;
                 z-index: 2;
                 
                 // タイトルの中心に丸い背景を挿入
@@ -72,6 +72,7 @@ a {
             .aboutHaseblo__detail {
                 width: 90%;
                 margin: 0 5%;
+                font-size: 2rem;
             }
             
             // ハセブロについて　（アイコン）
@@ -111,7 +112,7 @@ a {
         // 活動内容のタイトル
         .activity__title {
             position: relative;
-            font-size: 3rem;
+            font-size: 4rem;
             z-index: 2;
             
             // タイトルの中心に丸い背景を挿入
@@ -154,10 +155,12 @@ a {
 
                 max-width: 1367px;
                 margin: 0 auto;
+
                 // 活動内容詳細
                 .activity__detail {
                     width: 90%;
                     margin: 0 5%;
+                    font-size: 2rem;
                 }
     
                 // 活動内容ページに飛ぶコンテナ
