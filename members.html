@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hasebloメンバー紹介</title>
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="members/members.css" />
+</head>
+<body>
+    <!-- ヘッダー読み込み -->
+    <header id="header" class="header"></header>
+
+    <!-- メイン -->
+    <main id="main">
+
+        <!-- 背景 -->       
+        <div class="bg__img">
+            <h1 class="main__title">メンバー紹介</h1>
+            <div class="bg__inner">
+
+                <!-- メインタイトル -->
+                
+                <!-- メンバー紹介 -->
+                <ul class="members__container">
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\chie.png" alt=""></div>
+                        <p>ちえまる：ワクワクすることが好き🌟新しいことに挑戦中！</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\dan.png" alt=""></div>
+                        <p>だい：日々楽しく生きる😊人と絡むの大好き</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\haruna.jpg" alt=""></div>
+                        <p>はるな：信頼できるパートナーとしてお付き合いできることを目指しています。</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\jack.jpg" alt=""></div>
+                        <p>ジャック：プログラミングに救われ、毎日が楽しい！今回のweb制作ではリーダーを務めさせていただきました。</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\janki-.png" alt=""></div>
+                        <p>じゃんきー：人生をより豊かにするスキルを身に着けたい🌟</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\kazu.jpg" alt=""></div>
+                        <p>かず：メープルの国で活動予定。プログラミングは活動拡大中。</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\kimu.jpg" alt=""></div>
+                        <p>きむ：異国の地で活動する、遅咲きのウェブデザイナー</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\kitztzki.png" alt=""></div>
+                        <p>なん：美大卒、駆け出しWebエンジニア。</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\na-chan.jpg" alt=""></div>
+                        <p>なーちゃん：未経験から理想の生活目指してプログラミング学習中。</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\powan.png" alt=""></div>
+                        <p>ぽわん：プログラミングと動画編集で新しいものを作りたい👍</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\shoko.jpg" alt=""></div>
+                        <p>しょうこ：業務効率化の為にプログラミングを学んでいます。デザインの楽しさとむずかしさを体験でき良い経験になりました。</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\sigetthi.JPG" alt=""></div>
+                        <p>シゲッティ：お客様に驚きと感動を与えるアラフォープログラミングサポーター。</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\katoshi.jpeg" alt=""></div>
+                        <p>かとし：求められることにプラスワンいいアイデアを考えるプログラマー<br>
+                        独学で楽しみながら学んでます！</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\satoru.jpg" alt=""></div>
+                        <p>さとる：常に楽しく日々新しいことを求めプログラミング学習中！</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="members\images\yoshi.png" alt=""></div>
+                        <p>よし：日々の積み重ねを大切にし、より良いものを作っていきたいと考えてます！</p>
+                    </li>
+                    <li class="members__item">
+                        <div class="img__inner"><img src="" alt=""></div>
+                        <p></p>
+                    </li>
+                </ul>
+            <!-- メンバー紹介終了 -->
+            </div>
+        </div>
+        <!-- 背景終了 -->
+    </main>
+    <!-- メイン終了 -->
+    <!-- フッター読み込み -->
+    <footer id="footer"></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+    $(function () {
+        $("#header").load("header.html", function () {
+        $.getScript("./js/script.js", function () {});
+        });
+        $("#footer").load("footer.html");
+    });
+    </script>
+</body>
+</html>
