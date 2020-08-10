@@ -1,0 +1,71 @@
+.portfolio__wrap {
+    max-width: 1367px;
+    margin: 100px auto;
+
+    #html {
+        display: inline-block;
+        background-color: orange;
+        border: none;
+        margin-left: 10px;
+        width: 80px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #css {
+        display: inline-block;
+        background-color: blue;
+        border: none;
+        margin-left: 20px;
+        width: 80px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #js {
+        display: inline-block;
+        background-color: yellow;
+        border: none;
+        margin-left: 20px;
+        width: 80px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .portfolio__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+        .portfolio__item {
+            flex-basis: calc(100% / 4 - 20px);
+            color: black;
+            margin: 20px 0;
+
+            span {
+                display: block;
+                padding-top: 100%;
+                position: relative;
+
+                p {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-55%, -50%);
+                }
+            }
+    
+            &.HTML {
+                background-color: orange;
+            }
+    
+            &.CSS {
+                background-color: blue;
+            }
+    
+            &.JS {
+                background-color: yellow;
+            }
+        }
+    }
+}

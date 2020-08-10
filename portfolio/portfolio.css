@@ -1,0 +1,78 @@
+.portfolio__wrap {
+  max-width: 1367px;
+  margin: 100px auto;
+}
+
+.portfolio__wrap #html {
+  display: inline-block;
+  background-color: orange;
+  border: none;
+  margin-left: 10px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.portfolio__wrap #css {
+  display: inline-block;
+  background-color: blue;
+  border: none;
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.portfolio__wrap #js {
+  display: inline-block;
+  background-color: yellow;
+  border: none;
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.portfolio__wrap .portfolio__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.portfolio__wrap .portfolio__list .portfolio__item {
+  -ms-flex-preferred-size: calc(100% / 4 - 20px);
+      flex-basis: calc(100% / 4 - 20px);
+  color: black;
+  margin: 20px 0;
+}
+
+.portfolio__wrap .portfolio__list .portfolio__item span {
+  display: block;
+  padding-top: 100%;
+  position: relative;
+}
+
+.portfolio__wrap .portfolio__list .portfolio__item span p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-55%, -50%);
+          transform: translate(-55%, -50%);
+}
+
+.portfolio__wrap .portfolio__list .portfolio__item.HTML {
+  background-color: orange;
+}
+
+.portfolio__wrap .portfolio__list .portfolio__item.CSS {
+  background-color: blue;
+}
+
+.portfolio__wrap .portfolio__list .portfolio__item.JS {
+  background-color: yellow;
+}
+/*# sourceMappingURL=portfolio.css.map */
